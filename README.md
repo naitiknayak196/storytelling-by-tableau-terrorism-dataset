@@ -1,119 +1,99 @@
-Global Terrorism Dataset Analysis
+📌 Global Terrorism Data Analysis
 
-Overview
+🌍 Project Overview
 
-Terrorism is a pressing issue affecting nations across the world. Our project aims to analyze terrorism data comprehensively to extract meaningful insights and trends. This project was part of our Data Visualization class, where we used Python for data cleaning, Tableau for storytelling, and PowerPoint for our final presentation.
+This project analyzes global terrorism trends using machine learning and data visualization. By exploring historical attack patterns, regions affected, and attack methodologies, we aim to derive actionable insights into global terrorism activities.
 
-Dataset
+📊 Dataset Description
 
-We used the Global Terrorism Database (GTD), a large-scale dataset containing detailed records of terrorist incidents worldwide. The dataset includes:
+**Dataset:** terrorism_dataset.csv & cleaned_terrorism_data.csv
 
-Date and location of attacks
+This dataset contains detailed records of global terrorist incidents, including:
 
-Types of attacks
+**Date & Location**: Country, city, and region of attacks.
+**Attack Characteristics:** Attack type, weapons used, and target type.
+**Casualties & Damage:** Number of fatalities, injuries, and property loss.
+**Terrorist Groups:** Identification of responsible organizations.
+**Additional Factors:** Ransom demands, hostages, and other influencing variables.
 
-Groups responsible
+🎯 Project Objectives
 
-Casualties and damages
+Analyze global terrorism trends over time and identify high-risk regions.
+Visualize attack patterns by geographical location and attack type.
+Identify common characteristics of terrorist incidents.
+Build predictive models to classify future terrorism risks.
+Use interactive dashboards (Tableau) for storytelling with data.
 
-Weapons used
+**🔍 Methodology**
 
-Files Included
+1️⃣ **Data Cleaning & Preprocessing**
 
-terrorism_dataset.csv - The original dataset
+Removed irrelevant or duplicate data.
+Handled missing values in key attributes.
+Standardized categorical data and encoded necessary variables.
 
-cleaned_terrorism_data.csv - The cleaned dataset
+2️⃣ **Exploratory Data Analysis (EDA)**
 
-Global Terrorism Dataset Analysis.ipynb - Python Jupyter Notebook for data cleaning and preprocessing
+Trend Analysis: Terrorist incidents over time.
+Geospatial Mapping: Attack locations visualized.
+Casualty Analysis: Fatalities and injuries distribution.
+Terrorist Group Impact: Identified most active groups.
 
-Global Terrorism Presentation.pdf - Final PowerPoint presentation used for storytelling
+3️⃣ **Machine Learning Modeling**
 
-README.md - This document
+Classification Models: Random Forest, XGBoost, Logistic Regression.
+Clustering Techniques: K-Means for pattern recognition.
+Predictive Analysis: Risk profiling based on past incidents.
 
-Data Cleaning Process
+4️⃣ **Data Visualization & Storytelling**
 
-Given the massive size and complexity of the dataset, we performed extensive cleaning using Python (Pandas, NumPy, and Matplotlib):
+Interactive Tableau Dashboards for insights.
+Geospatial heatmaps for affected areas.
 
-Removed irrelevant columns to focus on key variables.
+📌 **Key Findings**
 
-Handled missing values by imputing or removing where necessary.
+The Middle East & South Asia are the most affected regions.
+Bombings & armed assaults are the most common attack types.
+Specific terrorist groups dominate different regions.
 
-Standardized date formats and location names.
 
-Transformed categorical variables for easier analysis.
+A rise in attacks is observed in certain time periods, linked to global conflicts.
 
-Derived new insights by creating additional features.
 
-Storytelling & Visualization (Tableau)
+**🛠️ How to Run the Project**
 
-Our approach to storytelling revolved around answering "WHY?" – Why do people engage in terrorism? We aimed to provide an unbiased, data-driven perspective to shed light on these patterns.
+Clone the repository:
 
-Key Insights
+git clone https://github.com/naitiknayak196/storytelling-by-tableau-terrorism-dataset.git
+cd storytelling-by-tableau-terrorism-dataset
 
-Geographical Patterns: Terrorism is more prevalent in certain regions due to political instability.
+**Install dependencies:**
 
-Trends Over Time: The frequency of attacks has evolved over decades, peaking in certain years.
+pip install -r requirements.txt
 
-Targeted Groups: Civilians and government institutions are the most targeted entities.
+Run Jupyter Notebook for analysis:
 
-Psychological Aspects: Socioeconomic conditions contribute significantly to radicalization.
+jupyter notebook "Global Terrorism Dataset Analysis.ipynb"
 
-Visualizations Created
+**🔮 Future Enhancements**
 
-Heatmaps of global terrorist attacks
+Incorporate real-time terrorism data feeds.
 
-Time-series plots showing trends over decades
+Improve predictive modeling for risk assessment.
 
-Bar charts & pie charts analyzing attack types and targets
+Develop a web-based dashboard for interactive analysis.
 
-Geospatial maps highlighting affected regions
+**📂 Repository Structure**
 
-Tools & Technologies Used
+📦 storytelling-by-tableau-terrorism-dataset
+ ┣ 📂 data
+ ┃ ┣ 📜 terrorism_dataset.csv
+ ┃ ┣ 📜 cleaned_terrorism_data.csv
+ ┣ 📂 notebooks
+ ┃ ┣ 📜 Global Terrorism Dataset Analysis.ipynb
+ ┣ 📜 README.md  # This File
+ ┣ 📜 requirements.txt  # Dependencies
+ ┣ 📜 Tableau Storyline & Data Analysis.pdf  # Project Report
 
-Python: Data cleaning (Pandas, NumPy, Matplotlib)
-
-Tableau: Data visualization & storytelling
-
-PowerPoint: Final presentation
-
-Presentation Highlights
-
-Our PowerPoint presentation emphasized not just the data but the human cost of terrorism. We structured it around key psychological and sociological factors that contribute to radicalization. Some of the critical questions addressed were:
-
-Why do individuals, even educated ones, turn to terrorism?
-
-What societal factors push individuals into extremist groups?
-
-How can we use data to predict and prevent future attacks?
-
-Future Scope
-
-Implementing Machine Learning models to predict potential terrorism hotspots.
-
-Conducting sentiment analysis on global terrorism reports and news.
-
-Expanding our Tableau dashboard for real-time interactive insights.
-
-How to Use This Repository
-
-Clone this repository:
-
-git clone https://github.com/yourusername/terrorism-analysis.git
-
-Open the Jupyter Notebook to explore the data cleaning process.
-
-Use the cleaned dataset for further analysis or visualization.
-
-View the PowerPoint presentation for storytelling insights.
-
-Contributors
-
-[Your Name]
-
-[Your Friend's Name]
-
-License
-
-This project is open-source and available for educational and research purposes.
-
-# storytelling-by-tableau-terrorism-dataset
+🚀 Created by: Naitik Nayak📩 
+Feel free to contribute and improve this project!
