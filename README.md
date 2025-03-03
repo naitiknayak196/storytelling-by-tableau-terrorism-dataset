@@ -20,7 +20,7 @@ Weapons used
 
 Files Included
 
-globalterrorismdb_0718dist.csv - The original dataset
+terrorism_dataset.csv - The original dataset
 
 cleaned_terrorism_data.csv - The cleaned dataset
 
